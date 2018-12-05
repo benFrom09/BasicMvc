@@ -1,0 +1,21 @@
+{
+    "name": "ben/aboutdebois",
+    "authors": [
+        {
+            "name": "ben-09",
+            "email": "ben.sentenac.09@protonmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "twig/twig": "2.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ben09\\":"src",
+            "Controllers\\":"controllers"
+        }
+    }
+}
